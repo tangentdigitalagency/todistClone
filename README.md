@@ -3,7 +3,23 @@
 - Delete Package Lock
 - Npm i
 - npm start
-- 1:12
+
+# Fifth Commit v0.0.5
+
+- Fixed bug with firebase init in npm package
+- fixed issues with type script in hook.js, Content.js, and constants
+- Fixed unsubscribe with firebase
+- data no read in firebase
+- fixed archived bug with firebase
+- fixed date bug with firebase
+- Added SCSS
+    - mixins
+    - global vars
+    - light mode
+
+** TO DO ** 
+- add Dark mode in css
+- finalize stlying and connect to front facing 
 
 # Fourth Commit v0.0.4
 - Add Snapshots
