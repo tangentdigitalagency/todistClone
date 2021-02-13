@@ -9,15 +9,33 @@
 # Third Commit v0.0.3
 - Added Firebase Init
 - Added custom Hooks
+
+
+** TO DO **
+ - Add Custom Hooks
+ - UseEffect
+ - UseState
 # Second Commit v0.0.2
 - Added New Header file system | Sidebar
 - Added Sidebar system with Logo and nav 
 - Icons with Sidebar
+
+
+** TO DO **
+ - Add Firebase
+ - Install node sass
+
 # First Commit v0.0.1
 Initilzied npm packages, took out css files, and headers 
 
+** TO DO **
+ - Add Headers
+ - Add Sidebar
+ - Add Icons
+
 # Folder Struct 
 Folder Structure
+
 
 
 
