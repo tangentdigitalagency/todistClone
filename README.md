@@ -4,7 +4,19 @@
 - Npm i
 - npm start
 
+# Fourth Commit v0.0.4
+- Add Snapshots
+- Added Checkbox
+- Added Content JS with Tasks and Hooks
 
+** TO DO **
+ - fix issues with firebase calling on hooks
+ - fix issues with typescript
+ - fix remaining issues on Hooks.js like 
+    - unsub
+    - data
+    - archived
+    - date
 
 # Third Commit v0.0.3
 - Added Firebase Init
