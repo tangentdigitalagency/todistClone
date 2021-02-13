@@ -1,4 +1,4 @@
-#First Commit 
+# First Commit 
 
 Initilzied npm packages, took out css files, and headers 
 
@@ -13,3 +13,8 @@ Folder Structure
         -Context
         -Helpers
         __tests_
+
+
+# Second Commit 
+
+- Added New Header file system | Sidebar
