@@ -4,8 +4,7 @@
 - Npm i
 - npm start
 
-
-# First Commit 
+# First Commit v0.0.1
 
 Initilzied npm packages, took out css files, and headers 
 
@@ -22,8 +21,12 @@ Folder Structure
         -__tests_
 
 
-# Second Commit 
+# Second Commit v0.0.2
 
 - Added New Header file system | Sidebar
 - Added Sidebar system with Logo and nav 
 - Icons with Sidebar
+
+# Third Commit v0.0.3
+
+- Added Firebase Init
