@@ -19,9 +19,11 @@ Folder Structure
         -Hooks
         -Context
         -Helpers
-        __tests_
+        -__tests_
 
 
 # Second Commit 
 
 - Added New Header file system | Sidebar
+- Added Sidebar system with Logo and nav 
+- Icons with Sidebar
