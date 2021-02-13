@@ -1,3 +1,10 @@
+# Init for app and how to start
+
+- Delete Package Lock
+- Npm i
+- npm start
+
+
 # First Commit 
 
 Initilzied npm packages, took out css files, and headers 
