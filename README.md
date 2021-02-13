@@ -3,6 +3,7 @@
 - Delete Package Lock
 - Npm i
 - npm start
+- 1:12
 
 # Fourth Commit v0.0.4
 - Add Snapshots
