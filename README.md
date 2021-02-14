@@ -4,7 +4,25 @@
 - Npm i
 - npm start
 
-# Sixth Commit 
+# Seventh Commit v0.0.7
+
+- Added Context To App
+- Built Project Components
+- Added composite index to Firebase
+- added individual project component 
+- added AddPropject component to modify context
+- Added Projects to firebase with context
+- Added show confirm delete
+
+** TO DO **
+
+- Fix style issue for confirm delete
+- Build out tasks component 
+- Add main conent to scss
+- Add content for Sidebare For Projects
+
+
+# Sixth Commit v0.0.6
 
 - Added in SCSS into main file
 - Styled sidebar

@@ -28,6 +28,7 @@ export const useTasks = selectedProject => {
         ? (unsubscribe = unsubscribe.where('date', '==', ''))
         : unsubscribe;
 
+    // @ts-ignore
     unsubscribe = unsubscribe.onSnapshot(snapshot => {
       const newTasks = snapshot.docs.map(task => ({
         id: task.id,
@@ -38,14 +39,19 @@ export const useTasks = selectedProject => {
         selectedProject === 'NEXT_7'
           ? newTasks.filter(
               task =>
+                // @ts-ignore
                 moment(task.date, 'DD-MM-YYYY').diff(moment(), 'days') <= 7 &&
+                // @ts-ignore
                 task.archived !== true
             )
+          // @ts-ignore
           : newTasks.filter(task => task.archived !== true)
       );
+      // @ts-ignore
       setArchivedTasks(newTasks.filter(task => task.archived !== false));
     });
 
+    // @ts-ignore
     return () => unsubscribe();
   }, [selectedProject]);
 
@@ -73,7 +79,8 @@ export const useProjects = () => {
           setProjects(allProjects);
         }
       });
-  }, [projects]);
+  }, [projects]); // Loop for project change only when update from firebase
 
   return { projects, setProjects };
 };
+
