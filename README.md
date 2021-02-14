@@ -4,7 +4,25 @@
 - Npm i
 - npm start
 
-2:11
+
+# Ninth Commit v0.0.9
+
+- Built out Tasks Component 
+- Add main content to SCSS
+- Added content for sidebar 
+- Added the AddProject Component 
+- modified contxt
+- Added Projects to Firebase
+- Added show confirm delete to stylesheet
+- Building out AddProject Comoponent 
+
+** TO DO **
+
+- Add Tasks to SCSS
+- Add Tasks with moments.js
+- Add AddTasks and Tasks to components 
+- Finalize Stytles
+
 
 # Eigth Commit v0.0.8
 

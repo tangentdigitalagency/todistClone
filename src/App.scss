@@ -266,6 +266,10 @@ header {
     @include mq('900px') {
       display: none;
     }
+
+    .sidebar__project {
+      margin-right: 20px;
+    }
   
     li {
      .sidebar__project-delete {
@@ -388,28 +392,118 @@ header {
 
       }
 
-      .sidebar__project-delete button {
-        padding: 4px 7px;
-        font-size: 17px;
-        border: 2px solid #ca2100;
-        border-radius: 3px;
-        background: none;
-        color: #ca2100;
-        font-weight: 600;
-        transition: 0.3s ease;
-        margin-right: 10px;
-    
-       &:hover{
-           background: #ca2100;
-           color: white;
-       }
+      // .sidebar__project-delete button {
+      //   padding: 4px 7px;
+      //   font-size: 17px;
+      //   border: 2px solid #ca2100;
+      //   border-radius: 3px;
+      //   background: none;
+      //   color: #ca2100;
+      //   font-weight: 600;
+      //   transition: 0.3s ease;
+      //   margin-right: 10px;
 
-      }
+      // }
 
-      .project-delete-modal__inner {
-        display: flex;
-        align-items: center;
-    }
       
 }
-  
+
+.project-delete-modal {
+  position: relative;
+
+  &__inner{
+    @include box-overlay();
+    z-index: 99;
+    width: 200px;
+    padding: 10px;
+    top: 20px;
+    right: 0;
+    background-color:#fefefe;
+    border-radius: 5px;
+
+    p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      line-height: normal;
+      font-weight: normal;
+      font-size: 15px;
+    }
+
+    button {
+      @include btn('50px');
+    }
+
+    span {
+      @include cancel();
+      font-weight: normal;
+    }
+  }
+}
+
+
+.content {
+  display: grid;
+  align-self: center;
+  grid-template-columns: 1fr auto;
+  max-width: 922px;
+  margin: auto;
+}
+
+.tasks {
+  width: 656px;
+  background-color: white;
+  margin-left: 266px;
+  border-right: $generic-border;
+  min-height: calc(100vh);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 80px;
+  padding-bottom: 84px;
+
+  @include mq('900px'){
+    margin-left: 0;
+    width: auto;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 30px 20px 0;
+  }
+
+  .add-task {
+    margin-top: 20px;
+  }
+
+  &__list li {
+    display: flex;
+    line-height: 18px;
+    color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    list-style-type: none;
+    border-bottom: 1px solid #f0f0f0;
+
+    .checkbox-holder {
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 16px;
+
+      .checkbox{
+        cursor: pointer;
+        border-color: gray;
+        color: #343434;
+        height: 16px;
+        width: 16px;
+        display: block;
+        border: 1px solid gray;
+        border-radius: 16px;
+
+
+      }
+    }
+  }
+}

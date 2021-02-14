@@ -39,6 +39,7 @@ export const IndividualProject = ({project}) => {
                 {showConfirm && (
           <div className="project-delete-modal">
             <div className="project-delete-modal__inner">
+              <p>Are you sure you want to delete <b>{project.name}</b>?</p>
               <button
                 type="button"
                 onClick={() => deleteProject(project.docId) }
