@@ -4,6 +4,19 @@
 - Npm i
 - npm start
 
+# Sixth Commit 
+
+- Added in SCSS into main file
+- Styled sidebar
+- styled header
+- added Nth child for dots for projects 
+- added layout components 
+
+** TO DO ** 
+
+- Add Context Helpers for project 
+- Fix css bug where hover on sidebar makes hover css for all sidebar items at once
+
 # Fifth Commit v0.0.5
 
 - Fixed bug with firebase init in npm package
