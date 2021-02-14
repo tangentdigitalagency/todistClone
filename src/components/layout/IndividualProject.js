@@ -3,7 +3,11 @@ import {FaLess, FaTrashAlt} from 'react-icons/fa';
 import {useProjectsValue, useSelectedProjectValue} from '../../context';
 import {firebase} from '../../firebase';
 
+
+
 export const IndividualProject = ({project}) => {
+
+  
 
     const [showConfirm, setShowConfirm] = useState(false); // verifcation for delete
     const {projects, setProjects} = useProjectsValue();
@@ -22,6 +26,7 @@ export const IndividualProject = ({project}) => {
     };
 
     return (
+      
         <>
             <span className="sidebar__dot">•</span>
             <span className="sidebar__project-name">{project.name}</span>
@@ -30,14 +35,15 @@ export const IndividualProject = ({project}) => {
                 data-testid="delete-project"
                 onClick={() => setShowConfirm(!showConfirm)}
             >
-                <FaTrashAlt />
+                <FaTrashAlt className="trash"/>
                 {showConfirm && (
           <div className="project-delete-modal">
             <div className="project-delete-modal__inner">
-              <p>Are you sure you want to delete this project?</p>
               <button
                 type="button"
-                onClick={() => deleteProject(project.docId)}
+                onClick={() => deleteProject(project.docId) }
+                className="deleteButton"
+                
               >
                 Delete
               </button>
@@ -49,6 +55,7 @@ export const IndividualProject = ({project}) => {
                 tabIndex={0}
                 role="button"
                 aria-label="Cancel adding project, do not delete"
+
               >
                 Cancel
               </span>

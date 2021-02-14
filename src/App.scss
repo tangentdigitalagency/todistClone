@@ -268,7 +268,7 @@ header {
     }
   
     li {
-      &:hover .sidebar__project-delete {
+     .sidebar__project-delete {
         display: flex;
       }
     }
@@ -370,6 +370,11 @@ header {
         line-height: 1.50;
         font-size: 15px;
 
+        &.active, &:hover {
+          font-weight: bold;
+          background-color: white;
+        }
+
           span:first-of-type {
             margin-right: 10px;
            
@@ -380,11 +385,31 @@ header {
             }
           }
         }
-  
-        &.active, &:hover {
-          font-weight: bold;
-          background-color: white;
-        }
+
       }
+
+      .sidebar__project-delete button {
+        padding: 4px 7px;
+        font-size: 17px;
+        border: 2px solid #ca2100;
+        border-radius: 3px;
+        background: none;
+        color: #ca2100;
+        font-weight: 600;
+        transition: 0.3s ease;
+        margin-right: 10px;
+    
+       &:hover{
+           background: #ca2100;
+           color: white;
+       }
+
+      }
+
+      .project-delete-modal__inner {
+        display: flex;
+        align-items: center;
+    }
+      
 }
   

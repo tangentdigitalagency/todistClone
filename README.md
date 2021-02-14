@@ -4,6 +4,19 @@
 - Npm i
 - npm start
 
+2:11
+
+# Eigth Commit v0.0.8
+
+- Fixed Style for confirm Delete
+
+** TO DO **
+
+- Build out tasks component 
+- Add main conent to scss
+- Add content for Sidebare For Project
+
+
 # Seventh Commit v0.0.7
 
 - Added Context To App
