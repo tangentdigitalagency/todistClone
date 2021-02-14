@@ -8,7 +8,6 @@ export const useTasks = selectedProject => {
   const [tasks, setTasks] = useState([]);
   const [archivedTasks, setArchivedTasks] = useState([]);
 
-  // Refetch project
   useEffect(() => {
     let unsubscribe = firebase
       .firestore()
@@ -74,13 +73,11 @@ export const useProjects = () => {
           docId: project.id,
         }));
 
-        // Only set project 
         if (JSON.stringify(allProjects) !== JSON.stringify(projects)) {
           setProjects(allProjects);
         }
       });
-  }, [projects]); // Loop for project change only when update from firebase
+  }, [projects]);
 
   return { projects, setProjects };
 };
-
