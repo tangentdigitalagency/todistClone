@@ -414,6 +414,18 @@ header nav div.settings ul li.settings__darkmode button svg {
   border-radius: 16px;
 }
 
+.add-task__plus, .add-project__plus {
+  color: #db4c3f;
+  font-size: 22px;
+}
+
+.add-task__text, .add-project__text {
+  display: inline-block;
+  color: #545454;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
 .add-project {
   padding-left: 13px;
   padding-right: 20px;

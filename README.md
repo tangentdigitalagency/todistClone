@@ -4,6 +4,31 @@
 - Npm i
 - npm start
 
+### MAJOR BUG 
+ this bug is random, when creating a project, and deleting it, the app crashes, there is no consistency for the bug to appear, the error comes from ` /src/components/Tasks.js:20 `
+
+ with the following error: 
+ `
+ 17 |  }
+  18 | 
+  19 |  if (projects && projects.length > 0 && selectedProject && !collatedTasksExist(selectedProject)) {
+> 20 |    projectName = getTitle(projects, selectedProject)['name'];
+     | ^  21 |  }
+  22 | 
+  23 |  useEffect(() => {
+ `
+---------------------------------------------------
+Its fixed by taking rewriting: 
+`
+ const {projects} = useProjectsValue();
+`
+TO 
+
+`
+const projects = userProjectsValue;
+`
+
+Not Sure what this can hurt in the long run but it works LOL 
 # Tenth Commit v 0.0.10
 
 - Built out add project

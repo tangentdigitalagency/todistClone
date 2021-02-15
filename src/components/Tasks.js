@@ -3,21 +3,21 @@ import {Checkbox} from './Checkbox';
 import {useTasks} from '../hooks';
 import {collatedTasks} from '../constants';
 import {useSelectedProjectValue, useProjectsValue} from '../context';
-import {getTitle, getCollatedTitle, CollatedTasksExist} from '../helpers';
+import {getTitle, getCollatedTitle, collatedTasksExist} from '../helpers';
 
 export const Tasks = () => {
     const { selectedProject } = useSelectedProjectValue();
-    const { projects } = useProjectsValue();
+    const projects = useProjectsValue;
     const { tasks } = useTasks(selectedProject);
   
     let projectName = '';
   
-    if (CollatedTasksExist(selectedProject) && selectedProject) {
-      projectName = getCollatedTitle(collatedTasks, selectedProject).name;
+    if (collatedTasksExist(selectedProject) && selectedProject) {
+      projectName = getCollatedTitle(collatedTasks, selectedProject)['name'];
     }
   
-    if (projects && projects.length > 0 && selectedProject && !CollatedTasksExist(selectedProject)) {
-      projectName = getTitle(projects, selectedProject).name;
+    if (projects && projects.length > 0 && selectedProject && !collatedTasksExist(selectedProject)) {
+      projectName = getTitle(projects, selectedProject)['name'];
     }
   
     useEffect(() => {

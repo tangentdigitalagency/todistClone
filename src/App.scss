@@ -508,6 +508,25 @@ header {
   }
 }
 
+// Add Tasks 
+
+.add-task {
+
+}
+
+.add-task__plus, .add-project__plus {
+  color:#db4c3f;
+  font-size: 22px;
+}
+
+.add-task__text, .add-project__text {
+  display: inline-block;
+  color: #545454;
+  font-size: 14px;
+  margin-left: 15px;
+
+}
+
 // Add Project Button
 .add-project {
   padding-left: 13px;
