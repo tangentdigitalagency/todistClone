@@ -11,8 +11,7 @@ export const ProjectsProvider = ({children}) => {
     const {projects, setProjects} = useProjects(); // to set projects when addind new tasks, or overlay/sidebar
 
     return (
-        <ProjectsContext.Provider
-            value={{projects, setProjects}}>
+        <ProjectsContext.Provider value={{projects, setProjects}}>
             {children}
         </ProjectsContext.Provider>
     );

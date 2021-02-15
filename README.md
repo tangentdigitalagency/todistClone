@@ -4,6 +4,21 @@
 - Npm i
 - npm start
 
+# Tenth Commit v 0.0.10
+
+- Built out add project
+- Fixed bug for memory leak 
+- fixed 'Cannot read property 'name' undefined' bug
+- Add project button goes into firebase
+- Creates ID in firebase
+- Added Context for sidebar
+- Built our AddTask to scss
+
+** TO DO **
+
+- Build out Add Tasks Component with moment.js
+- add usability for AddTasks Component 
+- Add TaskDate with Moment.js
 
 # Ninth Commit v0.0.9
 
@@ -123,24 +138,3 @@ Initilzied npm packages, took out css files, and headers
  - Add Headers
  - Add Sidebar
  - Add Icons
-
-# Folder Struct 
-Folder Structure
-
-
-
-
-SRC Values 
-
-    -src
-        -Component
-        -Layout 
-        -Constants 
-        -Hooks
-        -Context
-        -Helpers
-        -__tests_
-        - App.js
-        - Firebase.js
-        -Index.js
-    -
