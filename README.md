@@ -29,6 +29,16 @@ const projects = userProjectsValue;
 `
 
 Not Sure what this can hurt in the long run but it works LOL 
+
+# Eleventh Commit v0.0.11
+
+- Built out Add Project Component 
+- Tasks StyleSheet complete
+- Added Tasks Component
+- Added AddTask component
+- Added more AddTasks to stylesheet
+- Added Task Date into stylesheet
+- Built out Project Overlay
 # Tenth Commit v 0.0.10
 
 - Built out add project

@@ -20,7 +20,7 @@ export const useTasks = selectedProject => {
         ? (unsubscribe = unsubscribe.where(
             'date',
             '==',
-            moment().format('DD/MM/YYYY')
+            moment().format('MM/DD/YYYY')
           ))
         : selectedProject === 'INBOX' || selectedProject === 0
         ? (unsubscribe = unsubscribe.where('date', '==', ''))
@@ -38,7 +38,7 @@ export const useTasks = selectedProject => {
           ? newTasks.filter(
               task =>
                 // @ts-ignore
-                moment(task.date, 'DD-MM-YYYY').diff(moment(), 'days') <= 7 &&
+                moment(task.date, 'MM-DD-YYYY').diff(moment(), 'days') <= 7 &&
                 // @ts-ignore
                 task.archived !== true
             )

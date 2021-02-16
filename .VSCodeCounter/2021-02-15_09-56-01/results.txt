@@ -1,0 +1,66 @@
+Date : 2021-02-15 09:56:01
+Directory : c:\Users\15209\Desktop\todistclone
+Total : 28 files,  18854 codes, 54 comments, 300 blanks, all 19208 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |     17,374 |          0 |          2 |     17,376 |
+| JavaScript |         20 |        492 |         23 |        100 |        615 |
+| SCSS       |          1 |        442 |         23 |         92 |        557 |
+| CSS        |          2 |        405 |          8 |         64 |        477 |
+| Markdown   |          1 |        126 |          0 |         40 |        166 |
+| HTML       |          1 |         14 |          0 |          2 |         16 |
+| XML        |          1 |          1 |          0 |          0 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                             |         28 |     18,854 |         54 |        300 |     19,208 |
+| public                                                                        |          1 |         14 |          0 |          2 |         16 |
+| src                                                                           |         24 |      1,340 |         54 |        256 |      1,650 |
+| src\components                                                                |          9 |        317 |          1 |         51 |        369 |
+| src\components\layout                                                         |          4 |        157 |          1 |         29 |        187 |
+| src\constants                                                                 |          1 |          5 |          0 |          1 |          6 |
+| src\context                                                                   |          3 |         34 |         12 |         16 |         62 |
+| src\helpers                                                                   |          1 |         25 |          0 |         10 |         35 |
+| src\hooks                                                                     |          1 |         65 |          6 |         11 |         82 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                      | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\15209\Desktop\todistclone\README.md                                  | Markdown   |        126 |          0 |         40 |        166 |
+| c:\Users\15209\Desktop\todistclone\package-lock.json                          | JSON       |     17,337 |          0 |          1 |     17,338 |
+| c:\Users\15209\Desktop\todistclone\package.json                               | JSON       |         37 |          0 |          1 |         38 |
+| c:\Users\15209\Desktop\todistclone\public\index.html                          | HTML       |         14 |          0 |          2 |         16 |
+| c:\Users\15209\Desktop\todistclone\src\App.css                                | CSS        |        404 |          8 |         63 |        475 |
+| c:\Users\15209\Desktop\todistclone\src\App.js                                 | JavaScript |         16 |          0 |          4 |         20 |
+| c:\Users\15209\Desktop\todistclone\src\App.min.css                            | CSS        |          1 |          0 |          1 |          2 |
+| c:\Users\15209\Desktop\todistclone\src\App.scss                               | SCSS       |        442 |         23 |         92 |        557 |
+| c:\Users\15209\Desktop\todistclone\src\components\AddProject.js               | JavaScript |         75 |          0 |          5 |         80 |
+| c:\Users\15209\Desktop\todistclone\src\components\AddTask.js                  | JavaScript |          1 |          0 |          2 |          3 |
+| c:\Users\15209\Desktop\todistclone\src\components\Checkbox.js                 | JavaScript |         18 |          0 |          3 |         21 |
+| c:\Users\15209\Desktop\todistclone\src\components\Projects.js                 | JavaScript |         32 |          0 |          4 |         36 |
+| c:\Users\15209\Desktop\todistclone\src\components\Tasks.js                    | JavaScript |         34 |          0 |          8 |         42 |
+| c:\Users\15209\Desktop\todistclone\src\components\layout\Content.js           | JavaScript |          9 |          0 |          3 |         12 |
+| c:\Users\15209\Desktop\todistclone\src\components\layout\Header.js            | JavaScript |         23 |          0 |          2 |         25 |
+| c:\Users\15209\Desktop\todistclone\src\components\layout\IndividualProject.js | JavaScript |         58 |          0 |         11 |         69 |
+| c:\Users\15209\Desktop\todistclone\src\components\layout\Sidebar.js           | JavaScript |         67 |          1 |         13 |         81 |
+| c:\Users\15209\Desktop\todistclone\src\constants\index.js                     | JavaScript |          5 |          0 |          1 |          6 |
+| c:\Users\15209\Desktop\todistclone\src\context\index.js                       | JavaScript |          8 |          0 |          1 |          9 |
+| c:\Users\15209\Desktop\todistclone\src\context\projects-context.js            | JavaScript |         12 |          8 |          7 |         27 |
+| c:\Users\15209\Desktop\todistclone\src\context\selected-project-context.js    | JavaScript |         14 |          4 |          8 |         26 |
+| c:\Users\15209\Desktop\todistclone\src\firebase.js                            | JavaScript |         12 |          0 |          2 |         14 |
+| c:\Users\15209\Desktop\todistclone\src\helpers\index.js                       | JavaScript |         25 |          0 |         10 |         35 |
+| c:\Users\15209\Desktop\todistclone\src\hooks\index.js                         | JavaScript |         65 |          6 |         11 |         82 |
+| c:\Users\15209\Desktop\todistclone\src\index.js                               | JavaScript |          5 |          0 |          2 |          7 |
+| c:\Users\15209\Desktop\todistclone\src\logo.svg                               | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\15209\Desktop\todistclone\src\reportWebVitals.js                     | JavaScript |         12 |          0 |          2 |         14 |
+| c:\Users\15209\Desktop\todistclone\src\setupTests.js                          | JavaScript |          1 |          4 |          1 |          6 |
+| Total                                                                         |            |     18,854 |         54 |        300 |     19,208 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
